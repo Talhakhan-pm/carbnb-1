@@ -20,6 +20,8 @@ gem "devise", github: "ghiculescu/devise", branch: "patch-2"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails", ">= 0.7.11"
 
+gem 'omniauth-google-oauth2'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails", ">= 0.4.0"
 
@@ -28,6 +30,8 @@ gem "tailwindcss-rails", ">= 0.4.3"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder", "~> 2.7"
+gem "omniauth-rails_csrf_protection"
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
